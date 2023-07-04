@@ -54,10 +54,9 @@ GitHub >> Settings >> SSH and GPG keys >> paste the ssh
 
 to check type
 ```
-git remote -v
+ssh -T git@github.com
 ```
 you should get a response like
 ```
-> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
-> origin  https://github.com/OWNER/REPOSITORY.git (push)
+Hi USERNAME! You've successfully authenticated
 ```
